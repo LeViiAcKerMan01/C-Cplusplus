@@ -3,6 +3,7 @@
 
 int main()
 {
+    // VARIABLES
     char cName[]= "Tom";
     char cAge[]= "35";
     printf("There was a man named %s\n", cName);
