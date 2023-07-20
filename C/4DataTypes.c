@@ -3,11 +3,11 @@
 
 int main()
 {
-    int age= 19;
-    double gpa= 6.35;
-    char grade= 'A';
-    char name[]= "Priyanshu Tadhiyal";
-    char phrase[]= "Priyanshu Academy";
+    int age= 19;  // integer
+    double gpa= 6.35;  // float
+    char grade= 'A';  // character
+    char name[]= "Priyanshu Tadhiyal";  // String
+    char phrase[]= "Priyanshu Academy";  // String
 
     printf("My name is %s\n", name);
     printf("I am %d years old\n",age);
