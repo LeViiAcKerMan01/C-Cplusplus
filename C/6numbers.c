@@ -8,7 +8,7 @@ int main()
 }
 
 /*
-   NOTES:
+   NOTES:                                          
    Try experimenting with different format specifiers and check out the output yourself.
    Try using operations and taking these numbers as an input in order to perform operations on them.
 

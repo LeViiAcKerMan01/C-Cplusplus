@@ -8,3 +8,4 @@ int main()
     scanf("%d",&age);
     printf("You are %d years old", age);
 }
+// scanf() is a INPUT FUNCTION!
