@@ -3,6 +3,7 @@
 
 int main()
 {
+    SayHi();
     return 0;
 }
 void SayHi(){
