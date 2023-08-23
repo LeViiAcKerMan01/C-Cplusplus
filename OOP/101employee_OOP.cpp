@@ -11,7 +11,7 @@ class Employee {
     string Name;
     string Company;
     int Age;
-
+// function to introduce yourself , so that you don't have to write that peace of code again and again!
     void introduceYourself(){
         cout<<Name<<endl;
         cout<<Company<<endl;
@@ -28,10 +28,15 @@ int main()
     employee1.Age=19;
 
     employee1.introduceYourself();
-    employee1.introduceYourself();
-    employee1.introduceYourself();
-    employee1.introduceYourself();
-    employee1.introduceYourself();
+   
+   Employee employee2;
+   employee2.Name="Hancock";
+   employee2.Company="Microsoft";
+   employee2.Age=19;
+
+   employee2.introduceYourself();
+
+   
 
 
 }
