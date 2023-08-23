@@ -41,4 +41,6 @@ int main()
    employee2.introduceYourself();
 
 }
+//NOTE:: 
 // Modified same code as in employee class in previous program!
+// Many lines code is reduced to 2 line code using constructor functions!
