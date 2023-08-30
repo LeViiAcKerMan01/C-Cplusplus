@@ -91,6 +91,10 @@ class Developer:public Employee {
         cout<<getName()<<" fixed bug using "<<FavProgrammingLanguage<<endl;
         cout<<Name<<" fixed bug using "<<FavProgrammingLanguage<<endl;
     }
+    void work(){
+        cout<<Name<<" is writing "<<FavProgrammingLanguage<<" code"<<endl;
+
+    }
 };
 
 class Teacher:public Employee{
@@ -103,7 +107,11 @@ class Teacher:public Employee{
     :Employee(name, company, age)
     {
         Subject=subject;
-    } 
+    }
+    void work(){
+        cout<<Name<<" is teaching "<<Subject<<endl;
+
+    }
 
     
 
