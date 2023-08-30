@@ -73,6 +73,10 @@ class Employee: AbstractEmployee {
             cout<<"sorry NO promotion for you!"<<endl;
         }
     }
+    void work(){
+        cout<<Name<<" is checking email, task backlog, performing tasks..."<<endl;
+
+    }
 };
 
 class Developer:public Employee {
@@ -87,7 +91,9 @@ class Developer:public Employee {
         cout<<getName()<<" fixed bug using "<<FavProgrammingLanguage<<endl;
         cout<<Name<<" fixed bug using "<<FavProgrammingLanguage<<endl;
     }
-class Teacher:Employee{
+};
+
+class Teacher:public Employee{
     public:
     string Subject;
     void prepareLesson(){
@@ -98,12 +104,15 @@ class Teacher:Employee{
     {
         Subject=subject;
     } 
+
+    
+
 };
 
         
     
 
-};
+
 int main()
 {
     Employee employee1= Employee("Priyanshu", "Google", 19);
@@ -113,13 +122,14 @@ int main()
 
     Developer d=Developer("Priyanshu", "Google", 25, "C++");
     d.fixBug();
-    d.fixBug();
-    d.fixBug();
-    d.askForPromotion();
+    d.work();
+  
 
     Teacher t=Teacher("Devon", "Code School", 35, "History");
     t.prepareLesson();
     t.askForPromotion();
+    d.work();
+
     
     
 
