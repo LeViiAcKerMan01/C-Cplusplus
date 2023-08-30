@@ -73,7 +73,7 @@ class Employee: AbstractEmployee {
             cout<<"sorry NO promotion for you!"<<endl;
         }
     }
-    void work(){
+    virtual void work(){
         cout<<Name<<" is checking email, task backlog, performing tasks..."<<endl;
 
     }
@@ -137,6 +137,12 @@ int main()
     t.prepareLesson();
     t.askForPromotion();
     d.work();
+
+    Employee *e1=&d;
+    Employee *e2=&t;
+
+    e1->work();
+    e2->work();
 
     
     
