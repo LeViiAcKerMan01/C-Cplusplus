@@ -5,21 +5,21 @@ int main()
 {
     char grade;
     scanf("%c", &grade);
-        Switch (grade) {
+        switch(grade){
         
-        case 'A':
+        case 'A' :
         printf("You did great!");
         break;
-        case 'B':
+        case 'B' :
         printf("You did alright!");
         break;
-        case 'C':
+        case 'C' :
         printf("You did poorly");
         break;
-        case 'D':
+        case 'D' :
         printf("You did very bad");
         break;
-        case 'E':
+        case 'E' :
         printf("You failed");
         break;
         default :
