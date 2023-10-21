@@ -37,7 +37,10 @@ class Student{
     int get_standard(){
         return standard;
     }
-   
+    string to_string(){
+        
+        
+    }
 };
 
 int main() {
@@ -56,7 +59,7 @@ int main() {
     cout << st.get_last_name() << ", " << st.get_first_name() << "\n";
     cout << st.get_standard() << "\n";
     cout << "\n";
-    
+    cout << st.to_string();
     
     return 0;
 }
