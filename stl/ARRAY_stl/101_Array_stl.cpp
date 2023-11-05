@@ -7,10 +7,9 @@ array<int, 4> a={12,43,56,32};
 for(int i=0; i<4; i++){
 cout<<a[i]<<endl;
 }
+
 cout<<a.front()<<" ";
 cout<<a.back()<<"\n";
-
-
 
 }
 
