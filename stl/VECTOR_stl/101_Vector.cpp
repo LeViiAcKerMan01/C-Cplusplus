@@ -14,10 +14,11 @@ int main()
     cout<<"Capacity:"<<v.capacity()<<endl;
 
     v.push_back(32);
-    cout<<"Capacity:"<<v.capacity()<<endl;
+    cout<<"Capacity:"<<v.capacity()<<endl;   
     cout<<"Size:"<<v.size()<<endl;
 
     cout<<"Element at index 2:"<<v.at(2)<<endl;
+    
     int a=v.at(1);
     int b=v.at(2);
     int product= a*b;
