@@ -41,6 +41,7 @@ int main()
     v.clear();
     
     cout<<"After clear size :"<<v.size()<<endl;
+    
 
 
 }
