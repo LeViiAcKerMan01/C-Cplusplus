@@ -32,7 +32,7 @@ int main()
     }cout<<endl;
 
     cout<<"Capacity :"<<v.capacity()<<endl;
-    
+
 
 
 }
