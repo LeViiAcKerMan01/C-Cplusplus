@@ -10,7 +10,7 @@ int main()
     STACK
     
     First in => last out!
-    Last in => First out!*/
+    Last in =>6 First out!*/
 
     s.push("Priyanshu");
     s.push("Singh");
